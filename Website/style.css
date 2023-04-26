@@ -13,7 +13,7 @@ body {
 
 /* ---------------- START OF HERO SECTION --------------- */
 #image {
-    background-image: url("images/bg-image.png");
+    background-image: url("../Website/images/bg-image.png");
     height: 100vh;
     background-size: cover;
 }
