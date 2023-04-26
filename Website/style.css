@@ -32,7 +32,7 @@ body {
 
 .bg-opacity h1 {
     font-family: "Konstruktor";
-    font-size: 12vh;
+    font-size: 5vh;
 }
 
 .about-header,
@@ -106,7 +106,7 @@ body {
 
 .history {
     background-color: #9C010D;
-    height: 115vh;
+    height: 81vh;
     margin-bottom: 100px;
 }
 
