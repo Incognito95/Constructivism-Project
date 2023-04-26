@@ -1,0 +1,169 @@
+html,
+body {
+    overflow-x: hidden;
+}
+
+/* ---------------- START OF HERO SECTION --------------- */
+#image {
+    background-image: url("images/bg-image.png");
+    height: 100vh;
+    background-size: cover;
+}
+
+#transparent {
+    position: absolute;
+    right: 0;
+    top: 0;
+    opacity: 0.63;
+    width: 50%;
+    height: 100vh;
+    background-color: black;
+}
+
+#transparent h1 {
+    font-family: "Konstruktor";
+    font-size: 15vh;
+    margin: 166px 0 -20px 42px;
+}
+
+#transparent p {
+    margin: -5px -44px -110px 49px;
+}
+
+.bg-opacity h1 {
+    font-family: "Konstruktor";
+    font-size: 12vh;
+}
+
+.about-header,
+.about-sub-header,
+.history-header,
+.artwork-header {
+    font-family: "Konstruktor"
+}
+
+/* ---------------- END OF HERO SECTION ----------- */
+
+/* ---------------- START OF ABOUT SECTION ----------- */
+
+.about-header {
+    font-size: 15vh;
+    margin-top: 350px;
+}
+
+/*
+   * Dummy devices (replace them with your own or something else entirely!)
+   */
+
+.product-device {
+    position: absolute;
+    right: 10%;
+    bottom: -30%;
+    width: 300px;
+    height: 540px;
+    background-color: #333;
+    border-radius: 21px;
+    transform: rotate(30deg);
+}
+
+.product-device::before {
+    position: absolute;
+    top: 10%;
+    right: 10px;
+    bottom: 10%;
+    left: 10px;
+    content: "";
+    background-color: rgba(255, 255, 255, .1);
+    border-radius: 5px;
+}
+
+.product-device-2 {
+    top: -25%;
+    right: auto;
+    bottom: 0;
+    left: 5%;
+    background-color: #e5e5e5;
+}
+
+
+/*
+   * Extra utilities
+   */
+
+.flex-equal>* {
+    flex: 1;
+}
+
+@media (min-width: 768px) {
+    .flex-md-equal>* {
+        flex: 1;
+    }
+}
+
+/* ---------------- END OF ABOUT SECTION --------------- */
+
+/* ---------------- START OF HISTORY SECTION ----------- */
+
+.history {
+    background-color: #9C010D;
+    height: 115vh;
+    margin-bottom: 100px;
+}
+
+h1 {
+    font-size: 12vh;
+}
+
+.history-header {
+    padding-top: 100px;
+    font-size: 12vh;
+}
+
+/* ---------------- END OF HISTORY SECTION --------------- */
+
+/* ---------------- START OF ARTWORK SECTION --------------- */
+.artwork-header {
+    font-family: "Konstruktor";
+    margin-top: 350px;
+}
+
+.slider-text {
+    font-family: "Konstruktor";
+    font-size: 70px;
+}
+
+/* ---------------- START OF FOOTER --------------- */
+footer {
+    background: #9D020C;
+}
+
+.constructivism {
+    font-family: "Konstruktor";
+    font-size: 20px;
+}
+
+/* ---------------- END OF FOOTER --------------- */
+
+/* ---------------- MEDIAQUERIES --------------- */
+@media (max-width: 600px) and (max-width: 896px) {
+
+    html,
+    body {
+        overflow-x: hidden;
+        position: relative;
+    }
+
+    img {
+        min-width: 100%;
+    }
+
+    #transparent h1 {
+        max-width: 100%;
+        font-size: 11vh;
+    }
+
+    #transparent {
+        width: 100%;
+    }
+
+}
