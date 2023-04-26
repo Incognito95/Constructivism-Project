@@ -3,6 +3,14 @@ body {
     overflow-x: hidden;
 }
 
+.navbar {
+    background: black;
+}
+
+.navbar-collapse {
+    font-family: "Konstruktor";
+}
+
 /* ---------------- START OF HERO SECTION --------------- */
 #image {
     background-image: url("images/bg-image.png");
@@ -13,7 +21,6 @@ body {
 #transparent {
     position: absolute;
     right: 0;
-    top: 0;
     opacity: 0.63;
     width: 50%;
     height: 100vh;
